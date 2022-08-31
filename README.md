@@ -1,3 +1,4 @@
 # CappyTheGame
 Game about some capybaras
-![capybara_2](https://user-images.githubusercontent.com/55850058/187746009-8854b3f0-b8cd-4cf8-878c-3b9dc0c0e181.jpg)
+
+![capybara_2_high_res](https://user-images.githubusercontent.com/55850058/187746106-c8f6cace-d807-4588-9647-2206e3b7e03b.jpg)
