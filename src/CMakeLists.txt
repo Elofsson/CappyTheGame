@@ -4,7 +4,7 @@
 cmake_minimum_required (VERSION 3.8)
 
 # Add source to this project's executable.
-add_executable (CappyTheGame "main.cpp"  "Application.h" "Application.cpp")
+add_executable (CappyTheGame "main.cpp"  "Application.h" "Application.cpp" "Scene.h" "Scene.cpp")
 
 # Include stb_image.
 include_directories("../dependencies/stbi")
