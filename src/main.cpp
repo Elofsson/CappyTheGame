@@ -4,7 +4,8 @@
 // be manually linked for cleanness.
 #define SDL_MAIN_HANDLED
 
-#include "SDLGameCmake.h"
+#include <iostream>
+#include "Application.h"
 
 // Move this to wrapper class.
 #define STB_IMAGE_IMPLEMENTATION
