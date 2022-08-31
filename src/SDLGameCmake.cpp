@@ -17,7 +17,7 @@ int main(int argc, char **argv) {
 	int windowWidth = 800;
 	int windowHeight = 800;
 
-	// Init the application itself.
+	//    Init the application itself.
 	Application* app = new Application(800, 800);
 	if (app->init() != 0) {
 		printf("Failed to initalize application.");
