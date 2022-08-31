@@ -2,6 +2,10 @@
 
 #include <SDL.h>
 
+//TODO: Create a transform class to represent the position, scale and rotatrion.
+//Add a transform as a private attribute to this class with methods to apply.
+//Scale, transform and rotation operations.
+
 class Object2D {
 
 public:

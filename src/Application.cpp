@@ -71,19 +71,20 @@ void Application::gameLoop() {
 
 		//Render.
 		// Do some test rendering for now.
-		SDL_Rect rect;
-		rect.x = 100;
-		rect.y = 100;
-		rect.w = 400;
-		rect.h = 400;
+		int size = 100;
+		Rectangle2D rect1(0, 100, 100, size, size);
+		Rectangle2D rect2(1, 200, 200, size, size);
+
 
 		//Set draw color for the background
 		SDL_SetRenderDrawColor(m_renderer, 0, 155, 0, 155);
 		SDL_RenderClear(m_renderer);
 
-		//Set color for the rectangle.
+		//Set color for the rectangles.
 		SDL_SetRenderDrawColor(m_renderer, 155, 0, 0, SDL_ALPHA_OPAQUE);
-		SDL_RenderFillRect(m_renderer, &rect);
+
+		rect1.draw(*m_renderer);
+		rect2.draw(*m_renderer);
 
 		//Do the actual rendering.
 		SDL_RenderPresent(m_renderer);
